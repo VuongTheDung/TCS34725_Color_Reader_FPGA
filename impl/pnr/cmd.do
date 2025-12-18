@@ -1,0 +1,14 @@
+-d C:\Users\Admin\Documents\TCS34725\impl\gwsynthesis\TCS34725.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst C:\Users\Admin\Documents\TCS34725\src\TCS34725.cst
+-cfg C:\Users\Admin\Documents\TCS34725\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

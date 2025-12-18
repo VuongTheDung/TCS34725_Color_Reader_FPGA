@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_moduleLCD" Register="97" Alu="745" Lut="3537" MULT18X18="3" T_Register="679(97)" T_Alu="780(745)" T_Lut="4571(3537)" T_MULT18X18="3(3)">
+ <SubModule name="clk100KHZ" Register="6" Alu="4" Lut="3" T_Register="6(6)" T_Alu="4(4)" T_Lut="3(3)"/>
+ <SubModule name="clk1500KHZ" Register="5" Lut="5" T_Register="5(5)" T_Lut="5(5)"/>
+ <SubModule name="IOC" Register="46" Lut="145" T_Register="160(46)" T_Lut="379(145)">
+  <SubModule name="sendcmd" Register="11" Lut="18" T_Register="114(11)" T_Lut="234(18)">
+   <SubModule name="SendLCD" Register="103" Lut="216" T_Register="103(103)" T_Lut="216(216)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="TCS" Register="132" Lut="125" T_Register="411(132)" T_Alu="31(0)" T_Lut="647(125)">
+  <SubModule name="uut" Register="144" Lut="285" T_Register="144(144)" T_Lut="285(285)"/>
+  <SubModule name="SendLCD" Register="135" Alu="31" Lut="237" T_Register="135(135)" T_Alu="31(31)" T_Lut="237(237)"/>
+ </SubModule>
+</Module>

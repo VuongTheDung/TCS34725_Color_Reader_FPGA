@@ -1,0 +1,49 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Admin\Documents\TCS34725\src\CLK1500K.v'
+Analyzing Verilog file 'C:\Users\Admin\Documents\TCS34725\src\CLK500K.v'
+Analyzing Verilog file 'C:\Users\Admin\Documents\TCS34725\src\I2C_receive.v'
+Analyzing Verilog file 'C:\Users\Admin\Documents\TCS34725\src\I2C_send.v'
+Analyzing Verilog file 'C:\Users\Admin\Documents\TCS34725\src\LCD_InitOrControl.v'
+Analyzing Verilog file 'C:\Users\Admin\Documents\TCS34725\src\LCD_Send_CmdOrChar.v'
+Analyzing Verilog file 'C:\Users\Admin\Documents\TCS34725\src\TCS34725.v'
+Analyzing Verilog file 'C:\Users\Admin\Documents\TCS34725\src\main.v'
+Compiling module 'top_moduleLCD'("C:\Users\Admin\Documents\TCS34725\src\main.v":8)
+Compiling module 'LCD_clk'("C:\Users\Admin\Documents\TCS34725\src\CLK500K.v":6)
+Compiling module 'clk_1500k'("C:\Users\Admin\Documents\TCS34725\src\CLK1500K.v":6)
+Compiling module 'LCD_Initorcontrol'("C:\Users\Admin\Documents\TCS34725\src\LCD_InitOrControl.v":8)
+Compiling module 'LCD_sendCmdorChar'("C:\Users\Admin\Documents\TCS34725\src\LCD_Send_CmdOrChar.v":6)
+Compiling module 'LCD_Send'("C:\Users\Admin\Documents\TCS34725\src\I2C_send.v":12)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 3 for port 'num_byte'("C:\Users\Admin\Documents\TCS34725\src\LCD_Send_CmdOrChar.v":23)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'repeat_start'("C:\Users\Admin\Documents\TCS34725\src\LCD_Send_CmdOrChar.v":23)
+Compiling module 'TCS34725_Read'("C:\Users\Admin\Documents\TCS34725\src\TCS34725.v":1)
+Compiling module 'i2c_receive'("C:\Users\Admin\Documents\TCS34725\src\I2C_receive.v":3)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 3 for port 'num_byte'("C:\Users\Admin\Documents\TCS34725\src\TCS34725.v":41)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 16("C:\Users\Admin\Documents\TCS34725\src\main.v":132)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 16("C:\Users\Admin\Documents\TCS34725\src\main.v":133)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 16("C:\Users\Admin\Documents\TCS34725\src\main.v":134)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 8("C:\Users\Admin\Documents\TCS34725\src\main.v":178)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 8("C:\Users\Admin\Documents\TCS34725\src\main.v":179)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 8("C:\Users\Admin\Documents\TCS34725\src\main.v":180)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 1("C:\Users\Admin\Documents\TCS34725\src\main.v":297)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 1("C:\Users\Admin\Documents\TCS34725\src\main.v":298)
+NOTE  (EX0101) : Current top module is "top_moduleLCD"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\Admin\Documents\TCS34725\impl\gwsynthesis\TCS34725.vg" completed
+[100%] Generate report file "C:\Users\Admin\Documents\TCS34725\impl\gwsynthesis\TCS34725_syn.rpt.html" completed
+GowinSynthesis finish

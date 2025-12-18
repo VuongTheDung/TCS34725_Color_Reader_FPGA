@@ -1,0 +1,82 @@
+[
+ {
+  "InstFile" : "C:/Users/Admin/Documents/TCS34725/src/main.v",
+  "InstLine" : 8,
+  "InstName" : "top_moduleLCD",
+  "ModuleFile" : "C:/Users/Admin/Documents/TCS34725/src/main.v",
+  "ModuleLine" : 8,
+  "ModuleName" : "top_moduleLCD",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Admin/Documents/TCS34725/src/main.v",
+    "InstLine" : 62,
+    "InstName" : "clk100KHZ",
+    "ModuleFile" : "C:/Users/Admin/Documents/TCS34725/src/CLK500K.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "LCD_clk"
+   },
+   {
+    "InstFile" : "C:/Users/Admin/Documents/TCS34725/src/main.v",
+    "InstLine" : 68,
+    "InstName" : "clk1500KHZ",
+    "ModuleFile" : "C:/Users/Admin/Documents/TCS34725/src/CLK1500K.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "clk_1500k"
+   },
+   {
+    "InstFile" : "C:/Users/Admin/Documents/TCS34725/src/main.v",
+    "InstLine" : 74,
+    "InstName" : "IOC",
+    "ModuleFile" : "C:/Users/Admin/Documents/TCS34725/src/LCD_InitOrControl.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "LCD_Initorcontrol",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Admin/Documents/TCS34725/src/LCD_InitOrControl.v",
+      "InstLine" : 28,
+      "InstName" : "sendcmd",
+      "ModuleFile" : "C:/Users/Admin/Documents/TCS34725/src/LCD_Send_CmdOrChar.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "LCD_sendCmdorChar",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/Admin/Documents/TCS34725/src/LCD_Send_CmdOrChar.v",
+        "InstLine" : 23,
+        "InstName" : "SendLCD",
+        "ModuleFile" : "C:/Users/Admin/Documents/TCS34725/src/I2C_send.v",
+        "ModuleLine" : 12,
+        "ModuleName" : "LCD_Send"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/Admin/Documents/TCS34725/src/main.v",
+    "InstLine" : 88,
+    "InstName" : "TCS",
+    "ModuleFile" : "C:/Users/Admin/Documents/TCS34725/src/TCS34725.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "TCS34725_Read",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Admin/Documents/TCS34725/src/TCS34725.v",
+      "InstLine" : 40,
+      "InstName" : "uut",
+      "ModuleFile" : "C:/Users/Admin/Documents/TCS34725/src/I2C_receive.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "i2c_receive"
+     },
+     {
+      "InstFile" : "C:/Users/Admin/Documents/TCS34725/src/TCS34725.v",
+      "InstLine" : 41,
+      "InstName" : "SendLCD",
+      "ModuleFile" : "C:/Users/Admin/Documents/TCS34725/src/I2C_send.v",
+      "ModuleLine" : 12,
+      "ModuleName" : "LCD_Send"
+     }
+    ]
+   }
+  ]
+ }
+]

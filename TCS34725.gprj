@@ -1,0 +1,18 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/CLK1500K.v" type="file.verilog" enable="1"/>
+        <File path="src/CLK500K.v" type="file.verilog" enable="1"/>
+        <File path="src/I2C_receive.v" type="file.verilog" enable="1"/>
+        <File path="src/I2C_send.v" type="file.verilog" enable="1"/>
+        <File path="src/LCD_InitOrControl.v" type="file.verilog" enable="1"/>
+        <File path="src/LCD_Send_CmdOrChar.v" type="file.verilog" enable="1"/>
+        <File path="src/TCS34725.v" type="file.verilog" enable="1"/>
+        <File path="src/main.v" type="file.verilog" enable="1"/>
+        <File path="src/TCS34725.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
